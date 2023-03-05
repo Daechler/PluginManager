@@ -1,0 +1,19 @@
+name: PluginManager
+version: '${project.version}'
+main: net.daechler.pluginmanager.PluginManager
+api-version: 1.19
+authors: [ Daechler ]
+description: This plugin can load, unload and reload other plugins.
+commands:
+  pmload:
+    description: Permission to use /pmload
+    usage: /pmload
+    permission: pmload.use
+  pmunload:
+    description: Permission to use /pmunload
+    usage: /pmunload
+    permission: pmunload.use
+  pmreload:
+    description: Permission to use /pmreload
+    usage: /pmreload
+    permission: pmreload.use
